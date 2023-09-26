@@ -1,4 +1,5 @@
 const members = [
+
     {   firstname: " ramiro",
         surname: "de lillo",
         age: "28",
@@ -10,4 +11,28 @@ const members = [
         favoriteBook: "Desarrole su cerebro",
         petName: "Zoe",
     }
+
+    {   firstname: "",
+        surname: "",
+        age: "",
+        city: "",
+        hobby: "",
+        favoriteFood: "",
+        favoriteVideoGame: "",
+        favoriteFilm: "",
+        favoriteBook: "",
+        petName: "",
+    },
+    {   firstname: "Luis",
+        surname: "Tortosa",
+        age: "25",
+        city: "Salamanca",
+        hobby: "Programar",
+        favoriteFood: "Cocido madrileño",
+        favoriteVideoGame: "Fallout New Vegas",
+        favoriteFilm: "Interestellar",
+        favoriteBook: "Fight Club",
+        petName: "El Picos",
+    },
+
 ]
