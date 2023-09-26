@@ -10,7 +10,7 @@ const members = [
         favoriteBook: "",
         petName: "",
 
-    }
+    },
     {   firstname: "Willy",
         surname: "Hidalgo",
         age: "25",
@@ -21,7 +21,6 @@ const members = [
         favoriteFilm: "Batman",
         favoriteBook: "Noches oscuras",
         petName: "Buggy",
-    }
     },
     {   firstname: "Luis",
         surname: "Tortosa",
