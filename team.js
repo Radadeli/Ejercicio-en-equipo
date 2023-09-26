@@ -9,5 +9,16 @@ const members = [
         favoriteFilm: "",
         favoriteBook: "",
         petName: "",
-    }
+    },
+    {   firstname: "Luis",
+        surname: "Tortosa",
+        age: "25",
+        city: "Salamanca",
+        hobby: "Programar",
+        favoriteFood: "Cocido madrileño",
+        favoriteVideoGame: "Fallout New Vegas",
+        favoriteFilm: "Interestellar",
+        favoriteBook: "Fight Club",
+        petName: "El Picos",
+    },
 ]
