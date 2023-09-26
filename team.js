@@ -44,4 +44,16 @@ const members = [
         favoriteBook: "La sombra del viento",
         petName: "Felix",
     },
-]
+    {
+        firstname: "Manuel",
+        surname: "Benitez",
+        age: "29",
+        city: "Villa Carlos Paz",
+        hobby: "Programar",
+        favoriteFood: "Milanesa",
+        favoriteVideoGame: "DOTA 2",
+        favoriteFilm: "",
+        favoriteBook: "Shantaram",
+        petName: "",
+    },
+];
