@@ -1,16 +1,6 @@
 const members = [
 
-    {   firstname: "",
-        surname: "",
-        age: "",
-        city: "",
-        hobby: "",
-        favoriteFood: "",
-        favoriteVideoGame: "",
-        favoriteFilm: "",
-        favoriteBook: "",
-        petName: "",
-    },
+    
     {   
     firstname: "Ivan",
     surname: "Dorta",
@@ -23,19 +13,17 @@ const members = [
     favoriteBook: "El señor de los anillos",
     petName: "Kasper",
     }
-        {   firstname: "Eliane Nahili",
-            surname: "Benitez Diaz",
-            age: "19",
-            city: "Madrid",
-            hobby: "Cantar",
-            favoriteFood: "Lasagna",
-            favoriteVideoGame: "Hollow Knight",
-            favoriteFilm: "Ponyo en el acantilado",
-            favoriteBook: "Momo, Michel Ende",
-            petName: "null",
-    }
-]
-
+    {   
+    firstname: "Eliane Nahili",
+    surname: "Benitez Diaz",
+    age: "19",
+    city: "Madrid",
+    hobby: "Cantar",
+    favoriteFood: "Lasagna",
+    favoriteVideoGame: "Hollow Knight",
+    favoriteFilm: "Ponyo en el acantilado",
+    favoriteBook: "Momo, Michel Ende",
+    petName: "null",
     },
     {   firstname: "Willy",
         surname: "Hidalgo",
