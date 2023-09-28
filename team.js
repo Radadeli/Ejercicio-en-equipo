@@ -142,3 +142,16 @@ petsNames(members);
 
 console.log(" ")
 
+//Ej. 5 by Ivan
+function printFavoriteVideogame (personas) {
+    for (let i=0 ; i<personas.length ; i++ ){
+        if(personas[i].favoriteVideoGame === "LOL" || personas[i].favoriteVideoGame === "League of Legends"){
+            console.log(personas[i].firstname + "'s favorite videogame is LOL")}
+        else{ console.log(personas[i].firstname + "'s favorite videogame is not LOL")
+        }
+    }
+}
+printFavoriteVideogame(members);
+//===================================================================================================
+
+console.log(" ")
