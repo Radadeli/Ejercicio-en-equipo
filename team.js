@@ -81,7 +81,7 @@ const members = [
     },
 ];
 
-
+//Funcion de Ramiro
 function ApellidosEnOrdenAlfabetico(equipo) {
     const equipoOrdenado = equipo.sort((a, b) => {
         const nombreCompletoA = `${a.surname} ${a.firstname}`;
@@ -93,13 +93,33 @@ function ApellidosEnOrdenAlfabetico(equipo) {
         console.log(`${miembro.surname} ${miembro.firstname}`);
     });
 }
+//===================================================================================================
 
+console.log(" ")
 
+//Funcion de Willy
 ApellidosEnOrdenAlfabetico(members);
 
-function compararParEdad(a,b){
+function compararPorEdad(a,b){
     return a.age - b.age;
 }
-members.sort(compararParEdad);
+members.sort(compararPorEdad);
 members.forEach((member) =>{ console.log(`Nombre: ${member.firstname}, Edad: ${member.age}`);
-});
+})
+//===================================================================================================
+
+console.log(" ")
+
+//Ej. 3 by Luis
+function edadPromedio(objeto){
+    let i = 0
+    let edadTotal = 0
+    let membersCount = Object.keys(objeto).length
+    for(i = 0;i < membersCount; i++){
+        edadTotal = edadTotal + Number(objeto[i].age)
+    }
+    let edadPromedio = (edadTotal/membersCount)
+    return (edadPromedio)
+}
+console.log("La edad media es de " + edadPromedio(members) + " años")
+//===================================================================================================
