@@ -96,3 +96,10 @@ function ApellidosEnOrdenAlfabetico(equipo) {
 
 
 ApellidosEnOrdenAlfabetico(members);
+
+function compararParEdad(a,b){
+    return a.age - b.age;
+}
+members.sort(compararParEdad);
+members.forEach((member) =>{ console.log(`Nombre: ${member.firstname}, Edad: ${member.age}`);
+});
