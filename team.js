@@ -80,3 +80,19 @@ const members = [
       petName: "Zoe",
     },
 ];
+
+
+function ApellidosEnOrdenAlfabetico(equipo) {
+    const equipoOrdenado = equipo.sort((a, b) => {
+        const nombreCompletoA = `${a.surname} ${a.firstname}`;
+        const nombreCompletoB = `${b.surname} ${b.firstname}`;
+        return nombreCompletoA.localeCompare(nombreCompletoB);
+    });
+
+    equipoOrdenado.forEach(miembro => {
+        console.log(`${miembro.surname} ${miembro.firstname}`);
+    });
+}
+
+
+ApellidosEnOrdenAlfabetico(members);
