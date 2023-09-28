@@ -123,3 +123,22 @@ function edadPromedio(objeto){
 }
 console.log("La edad media es de " + edadPromedio(members) + " años")
 //===================================================================================================
+
+console.log("  ")
+
+//Ej. 4 'Print who has a pet (name petName)' by Laura
+function petsNames(objeto){
+    for(let i = 0; i<objeto.length; i++){
+        if(objeto[i].petName){
+            console.log(objeto[i].firstname + " has a pet named " + objeto[i].petName);
+        }else{
+            console.log(objeto[i].firstname + " doesn't have a pet");
+        }
+    }
+}
+
+petsNames(members);
+//===================================================================================================
+
+console.log(" ")
+
