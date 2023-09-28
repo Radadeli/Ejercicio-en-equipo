@@ -12,7 +12,7 @@ const members = [
     favoriteFilm: "Interstellar",
     favoriteBook: "El señor de los anillos",
     petName: "Kasper",
-    }
+    },
     {   
     firstname: "Eliane Nahili",
     surname: "Benitez Diaz",
